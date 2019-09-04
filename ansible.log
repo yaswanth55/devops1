@@ -1,0 +1,21 @@
+2019-08-15 01:29:09,563 p=7914 u=root |   [ERROR]: User interrupted execution
+
+2019-08-15 01:29:19,636 p=7929 u=root |   [ERROR]: User interrupted execution
+
+2019-08-15 01:30:11,191 p=7970 u=root |  ERROR! Missing target hosts
+2019-08-15 01:31:47,972 p=8014 u=root |  ERROR! Missing target hosts
+2019-08-15 01:32:02,528 p=8021 u=root |  ERROR! Missing target hosts
+2019-08-15 01:32:23,688 p=8035 u=root |   [ERROR]: User interrupted execution
+
+2019-08-15 01:32:39,824 p=8043 u=root |   [ERROR]: User interrupted execution
+
+2019-08-15 01:36:13,219 p=8109 u=root |  node1 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 34.226.153.7 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+2019-08-15 01:36:52,371 p=8139 u=root |  node1 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 34.226.153.7 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}

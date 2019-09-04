@@ -1,0 +1,22 @@
+node1 
+
+node3 ansible_ssh_host=18.234.82.205 
+
+node2   
+
+node4
+
+[centos_group]
+node1
+node3
+node4
+
+
+[ubuntu_group]
+node2
+
+
+[linux_servers:children]
+centos_group
+ubuntu_group
+
